@@ -39,7 +39,6 @@ exchangeIcon.addEventListener("click", () => {
 
 
 for(let icon of icons) {
-  console.log(icon)
   icon.addEventListener("click", (element) => {
     if(element.target.classList.contains("fa-copy")) {
       if(element.target.id == "from") {
