@@ -94,3 +94,17 @@ button:hover {
 .right {
   gap: 5px;
 }
+
+@media (max-width: 576px) { 
+  .container {
+    width: 100vw;
+    padding: 10px;
+  }
+  ul {
+    padding: 8px 12px;
+  }
+
+  .text-controls textarea {
+    padding: 5px 10px;
+  }
+}
